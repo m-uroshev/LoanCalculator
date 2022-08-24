@@ -1,0 +1,26 @@
+/* Base: #46dff0
+Ring: #e90c59
+BG: #2d2d2d  */
+
+div{
+    margin-bottom: 10px;
+}
+
+.input-group-text{
+    min-width: 40px;
+    background: mediumspringgreen;
+
+}
+
+.input-group-text.total, .input-group-text.monthly, .input-group-text.interest{
+    min-width: 150px;
+}
+.btn:active, .btn:hover{
+    border: none !important;
+}
+#loading{
+    margin: 82px;
+}
+#loading, #results{
+    display: none;
+}
